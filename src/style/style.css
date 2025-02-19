@@ -55,6 +55,9 @@ nav > a {
     color: white;
     text-decoration: none;
 }
+nav > a:hover {
+    color: var(--cor2);
+}
 
 main {
     background-color: white;
@@ -79,5 +82,5 @@ footer a {
     color: white;
 }
 footer a:hover {
-    color: black;
+    color: var(--cor2);
 }
