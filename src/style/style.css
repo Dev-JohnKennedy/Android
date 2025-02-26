@@ -76,6 +76,7 @@ nav > a {
 }
 nav > a:hover {
     color: var(--cor3);
+    text-decoration: underline;
 }
 
 main {
@@ -131,6 +132,22 @@ article > h1 {
 article > h2 {
     font-family: var(--font-android);
     font-size: 1.3em;
+}
+
+.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.4%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
